@@ -4,3 +4,4 @@ def checker(n):
     for i in range(len_word):
         if word[i] != '9':
             return pow(10,(len_word - 1 - i))*(9-int(word[i]))
+    return 0
