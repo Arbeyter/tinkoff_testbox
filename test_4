@@ -1,0 +1,6 @@
+def checker(n):
+    word = str(n)
+    len_word = len(word)
+    for i in range(len_word):
+        if word[i] != '9':
+            return len_word - 1 - i
